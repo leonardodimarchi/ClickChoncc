@@ -1,0 +1,151 @@
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    background-image: url("../image/backgrounds/1.png");
+    /*background-color: #FCFAF2 !important;*/
+}
+
+#content *{
+    flex: 1 0 auto;
+    /*Disable selection*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+
+    /*Disable draggable*/
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+/*Centralizar verticalmente a linha de blocos*/
+.center{
+    margin-top: 15%;
+}
+
+.bloco{
+    height: 166px;
+    width: 166px;
+    background: linear-gradient(90deg, rgba(255,0,232,1) 0%, rgba(171,0,255,1) 53%, rgba(0,212,255,1) 100%);
+    border-radius: 57px 24px 57px 24px;
+    filter: drop-shadow(0px 2px 5px rgb(80, 79, 79,0.25));
+}
+
+.clickable-block{
+    padding: 0px 0px 100px 0px;
+}
+
+.gametitle{
+    text-align: right;
+    font-size: 24px;
+    margin-left: 25px;
+    text-decoration: none !important;
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gametitle:hover{
+    font-size: 28px;
+    color:black;
+}
+
+
+img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin: 0px;
+    border-radius: 50px 15px 50px 15px;
+}
+
+#jumpImg{
+    object-position: 5% 0;
+}
+
+/*POPOVER e SWEETALERT*/
+.popover-body{
+    text-align: center;
+}
+
+.swal-footer{
+    text-align: center;
+  }
+
+.swal-modal{
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 20px;
+}
+
+.swal-button{
+    margin-bottom: 20px;
+}
+
+/*MEDIA*/
+
+@media(max-width: 1200px){
+    .gametitle{
+        font-size: 18px;
+        margin-right: 60px;
+    }
+
+    .gametitle:hover{
+        font-size: 22px;
+    }
+
+    .center{
+        margin-top: 25%;
+    }
+}
+
+@media(max-width: 990px){
+    .gametitle{
+        font-size: 16px;
+        margin-right: 0px;
+    }
+
+    .gametitle:hover{
+        font-size: 20px;
+    }
+
+    .center{
+        margin-top: 32%;
+    }
+}
+
+@media(max-width: 768px){
+    .gametitle{
+        font-size: 16px;
+        text-align: center;
+        margin-left: 43%;
+    }
+
+    .bloco{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .center{
+        margin-top: 10%;
+    }
+}
+
+
+
+
+
