@@ -340,7 +340,7 @@ function main(){
     }
 
     img = new Image();
-    img.src = "/../image/jumpSprite.png";
+    img.src = "/image/jumpSprite.png";
     
     roda();
 }
