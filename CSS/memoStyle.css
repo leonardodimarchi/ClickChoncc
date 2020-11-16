@@ -6,7 +6,7 @@
   body,html{
     display:flex;
     flex-direction: column;
-    background-image: url("../image/backgrounds/memo.png");
+    background-image: url("image/backgrounds/memo.png");
     /* background-color: #00A0E0 !important; */
     /*Disable selection*/
     -webkit-touch-callout: none; /* iOS Safari */
