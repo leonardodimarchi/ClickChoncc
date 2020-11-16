@@ -11,7 +11,7 @@ html,body{
 body{
     display:flex;
     flex-direction: column;
-    background-image: url("../image/backgrounds/1.png");
+    background-image: url("image/backgrounds/1.png");
     /*background-color: #FCFAF2 !important;*/
 }
 
